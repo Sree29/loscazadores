@@ -119,15 +119,19 @@
         .row {
             margin-bottom: 100px;
         }
+        body, html {
+            overflow-x: hidden;
+        }
+        
     </style>
 
 </head>
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
+    <!-- <div id="preloder">
         <div class="loader"></div>
-    </div>
+    </div> -->
 
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
@@ -192,7 +196,7 @@
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="./index.html">Services</a></li>
-                            <li class="active"><a href="./index.html">Shop</a></li>
+                            <li><a href="./index.html">Shop</a></li>
                             <li><a href="#">Contests</a></li>
                             <li><a href="./blog.html">Outfitters</a></li>
                             <li><a href="./contact.html">Sales</a></li>
@@ -215,13 +219,13 @@
     <!-- Header Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-option" >
+    <section class="breadcrumb-option" style="padding-top: 5px; padding-bottom: 5px;">
         <div class="container" style="padding-top: 0;">
             <div class="row" style="padding-top: 0;">
                 <div class="col-lg-12">
-                    <div class="breadcrumb__text">
-                        <h4>Shop</h4>
-                        <div class="breadcrumb__links">
+                    <div class="breadcrumb__text" style="padding: 5px 0;">
+                        <h4 style="margin-bottom: 5px;">Shop</h4>
+                        <div class="breadcrumb__links" style="margin-bottom: 5px;">
                             <a href="./index.html">Home</a>
                             <span>Shop</span>
                         </div>
@@ -230,6 +234,7 @@
             </div>
         </div>
     </section>
+    
     <!-- Breadcrumb Section End -->
 
     <!-- Shop Section Begin -->
